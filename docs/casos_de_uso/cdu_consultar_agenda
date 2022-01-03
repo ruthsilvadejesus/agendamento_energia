@@ -1,0 +1,45 @@
+Projeto Agendamento de Serviços
+
+## Especificação do caso de uso - Consultar Agenda 
+### Histórico da Revisão
+
+| Data       | Versão   | Descrição      | Autor           |
+| :--------- | :------- | :------------- | :-------------- |
+| 28/12/2021 | *1.10* | Versão Inicial | Ruth Silva      |
+
+### 1. Resumo
+
+Possibilita que o Cliente consulte o dia e horário em que o serviço que solicitou está previsto para ser realizado.   
+
+### 2. Atore
+
+Cliente 
+
+### 3. Pré-condições
+
+O Cliente deve ter realizado o login na página inicial.
+
+### 4. Pós-condições
+
+O cliente pode verificar o status do agendamento criado. 
+
+### 5. Fluxos de Evento
+
+#### 5.1. Fluxo Básico
+
+| Ator                                                                               | Sistema                                                                                                                                                                                                                   |
+| :--------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|                                                                                    |1. Após o cliente acessar a agenda é mostrado uma tabela na qual se encontram todos os agendamentos já realizados, organizados do mais recente para o mais antigo, onde apresenta algumas informações relevantes sobre cada agendamento(status, data de criação, sistema(s), serviço, valor, etc.)|                                                                                                                                                                                                                            |
+|2. O cliente poderá editar/cancelar um agendamento que ainda não foi aprovado ou ver alguns detalhes de execução de um agendamento já realizado, podendo também pedir para cancelar um agendamento já confirmado .                                                                                     |                                                                                                                           |
+|                                                                                    |3. O sistema mostra uma aba para retornar à página anterior e uma de cancelamento, na qual o cliente é redirecionado para a página de agendamento.  
+
+#### 5.2. Fluxos de Exceção
+
+| Exceção                            | Sistema                                                                                                                                                                     |
+| :--------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|1. O cliente não realizou login.    |1. Não é possível acessar a agenda.
+|2.Não há nenhum serviço agendado.   |2. Na agenda não aparecerão datas ocupadas com algum serviço. 
+
+### 6. Protótipos de Interface
+
+`A ser desenvolvido pelo aluno.`
